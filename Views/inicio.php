@@ -2,11 +2,11 @@
     session_start();
 ?>
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Admin</title>
+  <title>Inicio</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -16,19 +16,6 @@
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
 </head>
 <body class="hold-transition sidebar-mini">
-
-<?php
-    if(isset($_SESSION["ingreso"]) && $_SESSION["ingreso"] == 'Ok'){
-        if(isset($_GET['ruta'])) {
-            if($_GET['ruta'] == 'inicio.php' || $_GET["salir"] == "salir.php"){
-                include "Views/".$_GET['ruta'].".php";
-            }
-        }else {
-            include "Views/404.html";
-        }
-    }
-?>
-
 <!-- Site wrapper -->
 <div class="wrapper">
   <!-- Navbar -->
