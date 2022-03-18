@@ -12,7 +12,9 @@
     
                     if($r["contra"] == $_POST["ingContra"]){
                         $_SESSION["iniciaSesion"] = "Ok";
-    
+                        echo '<script>
+                                window.location = "inicio.php";
+                                </script>';
                         echo '<br><div class= "alert alert-success">
                         Bienvenido </div>';
                     }else{
