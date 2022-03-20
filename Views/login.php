@@ -51,7 +51,7 @@
             <!-- /.col -->
         </div>
         <?php
-            require_once "../Controllers/users_controller.php";           
+            require_once "Controllers/users_controller.php";
 
             $l = new UsersController();
             $l->conecta();
