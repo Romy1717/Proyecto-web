@@ -1,0 +1,35 @@
+Acerca del sistema:
+
+La primera parte de este proyecto es un panel de administración de una tienda online de ropa el cual
+no ha sido concluido, pero incluye un login y un panel en donde se administran los usuarios del sistema,
+clientes, roles, ademas de un modulo para agregar productos o categorias a la tienda online.
+
+
+Ingresar al sistema:
+
+
+- Importar archivo db_store.sql a phpMyadmin para crear la base de datos
+
+- Modificar archivo Config.php de la carpeta config para configurar los datos de la BD
+
+- Ingresar al sistema con los datos de admin pretederminados
+	
+	° email: josue3040@live.com
+	° contraseña: 12345
+
+- El usuario administrador principal puede ver los modulos del sitema los cuales son los siguientes
+	
+	° Usuarios -> Usuarios, Roles
+	° Clientes
+	° Tienda -> Productos, Categorias
+	° Pedidos
+	° Logout 
+
+- Principales caracteristicas hasta el momento
+
+	° Ver, Registrar, Actualizar y Borrar Usuarios (Clientes y Usuarios del sistema)-> Exportar tablas a excel, pdf o csv
+	° Ver, Registrar, Actualizar y Borrar Roles y Modificar los permisos de los roles de usuario en el modulo de Roles
+	° Ver, Registrar, Actualizar y Borrar Categorias
+	° Cerrar sesión
+	° Ver perfil de usuario
+
