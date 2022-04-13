@@ -1,10 +1,11 @@
 # Proyecto-web
 Proyecto de la materia Programación web avanzada 
 
-Integrantes
+Integrantes:
 
 Josué Gerardo Gutiérrez Martínez
 
 Andrea Romero Hernandez
 
 Diana Isabel Santillan Guzman
+
