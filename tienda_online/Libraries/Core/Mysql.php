@@ -1,5 +1,4 @@
-<?php 
-
+<?php
 	class Mysql extends Conexion
 	{
 		private $conexion;

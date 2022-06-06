@@ -1,3 +1,4 @@
+
 <?php
 	class Categorias extends Controllers{
 		public function __construct()
@@ -8,6 +9,7 @@
 			if(empty($_SESSION['login']))
 			{
 				header('Location: '.base_url().'/login');
+				die();
 			}
 			getPermisos(6);
 		}
@@ -36,6 +38,9 @@
 					$strDescipcion = strClean($_POST['txtDescripcion']);
 					$intStatus = intval($_POST['listStatus']);
 
+					$ruta = strtolower(clear_cadena($strCategoria));
+					$ruta = str_replace(" ","-",$ruta);
+
 					$foto   	 	= $_FILES['foto'];
 					$nombre_foto 	= $foto['name'];
 					$type 		 	= $foto['type'];
@@ -50,7 +55,7 @@
 					{
 						//Crear
 						if($_SESSION['permisosMod']['w']){
-							$request_cateria = $this->model->inserCategoria($strCategoria, $strDescipcion,$imgPortada,$intStatus);
+							$request_cateria = $this->model->inserCategoria($strCategoria, $strDescipcion,$imgPortada,$ruta,$intStatus);
 							$option = 1;
 						}
 					}else{
@@ -61,7 +66,7 @@
 									$imgPortada = $_POST['foto_actual'];
 								}
 							}
-							$request_cateria = $this->model->updateCategoria($intIdcategoria,$strCategoria, $strDescipcion,$imgPortada,$intStatus);
+							$request_cateria = $this->model->updateCategoria($intIdcategoria,$strCategoria, $strDescipcion,$imgPortada,$ruta,$intStatus);
 							$option = 2;
 						}
 					}

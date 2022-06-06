@@ -17,19 +17,28 @@
 	display: none;
 }
 .headerRegister, .header-primary{
-	background: #1068b1e3;
+	background: #238dde;
 	color: #FFF;
 }
 .headerUpdate{
 	background: #007bff;
 	color: #FFF;
 }
-.notBlock{
-	display: none;
+.textcenter{
+	text-align: center;
+}
+.textright{
+	text-align: right;
+}
+.textleft{
+	text-align: left;
+}
+.bootstrap-select > .dropdown-toggle{
+	border: 1px solid #CCC;
 }
 /*Estilos login*/
-.material-half-bg .cover {
-	background-color: #126e9eeb;
+.material-half-bg{
+	background-color: rgba(0, 0, 0, 0.92);
 	height: 50vh;
 }
 #divLoading{
@@ -40,7 +49,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: rgba(254,254,255, .65);
+	background: rgb(255, 255, 255);
 	z-index: 9999;
 	display: none;
 }
@@ -53,6 +62,7 @@
 	font-size: 13pt;
 	font-weight: bold;
 }
+
 /* style portada categoría */
 .prevPhoto {
     display: flex;
@@ -81,7 +91,7 @@
 	width: 100%;
 	height: 100%;
 }
-.upimg, .notBlock{
+.upimg, .notblock{
 	display: none !important;
 }
 .errorArchivo{
@@ -123,4 +133,60 @@
 #imgCategoria img{
 	width: 200px;
 	margin: auto;
+}
+
+/* Upload fotos*/
+#containerImages{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+}
+#containerImages > div{
+	margin-right: 10px;
+	margin-bottom: 8px;
+}
+.prevImage{
+	border: 1px solid #CCC;
+	width: 120px;
+	height: 148px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.prevImage img{
+	width: 100%;
+}
+.inputUploadfile{
+	display: none;
+}
+.btnUploadfile, .btnDeleteImage{
+	border: 0;
+	background-color: #126e9eeb;
+	text-align: center;
+	padding: 2px 3px;
+	color: #FFF;
+	font-size: 9pt;
+	cursor: pointer;
+	width: 100%;
+}
+.btnDeleteImage{
+	background-color: #dc3545;
+}
+.prevImage .loading{
+	width: 30px;
+	height: 30px;
+}
+#celFotos img{
+	width: 150px;
+	margin: 10px;
+}
+
+/* AXW STORE */
+.divmetodpago label{
+	width: 100%;
+	display: flex;
+}
+.divmetodpago label input{
+	margin-right: 15px;
 }

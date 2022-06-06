@@ -1,12 +1,13 @@
-<?php 
-
+<?php
 	class Login extends Controllers{
 		public function __construct()
 		{
 			session_start();
+			session_regenerate_id(true);
 			if(isset($_SESSION['login']))
 			{
 				header('Location: '.base_url().'/dashboard');
+				die();
 			}
 			parent::__construct();
 		}

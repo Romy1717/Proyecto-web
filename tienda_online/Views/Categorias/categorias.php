@@ -1,8 +1,8 @@
-<?php
-
+<?php 
     headerAdmin($data); 
     getModal('modalCategorias',$data);
 ?>
+
     <main class="app-content">
       <div class="app-title">
         <div>

@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-	const BASE_URL = "http://localhost/tienda_online";
+	const BASE_URL = "http://localhost/tienda_online/";
 
 	//Zona horaria
 	date_default_timezone_set('America/Mexico_City');
@@ -17,18 +17,23 @@
 	const SPM = ",";
 
 	//Simbolo de moneda
-	const SMONEY = "Q";
+	const SMONEY = "MXN";
 
 	//Datos envio de correo
-	const NOMBRE_REMITENTE = "Store AXW";
+	const NOMBRE_REMITENTE = "AXW Store";
 	const EMAIL_REMITENTE = "no-reply@axw.com";
-	const NOMBRE_EMPESA = "AXW";
-	const WEB_EMPRESA = "www.storeaxw.com";
-	
+	const NOMBRE_EMPESA = "AXW Store";
+	const WEB_EMPRESA = "www.axw.com";
 
+	const CAT_SLIDER = "1,2,3";
+	const CAT_BANNER = "4,5,6";
 
+	//Datos para Encriptar / Desencriptar
+	const KEY = 'axw';
+	const METHODENCRIPT = "AES-128-ECB";
 
-	
+	//Envío
+	const COSTOENVIO = 50;
 
 
  ?>

@@ -9,8 +9,9 @@
     <meta name="theme-color" content="#126e9eeb">
     <link rel="shortcut icon" href="<?= media();?>/images/favicon.ico">
     <!-- Main CSS-->
+      <link rel="stylesheet" type="text/css" href="<?= media();?>/css/style.css">
     <link rel="stylesheet" type="text/css" href="<?= media();?>/css/main.css">
-    <link rel="stylesheet" type="text/css" href="<?= media();?>/css/style.css">
+
     
     <title><?= $data['page_tag']; ?></title>
   </head>
@@ -20,7 +21,7 @@
     </section>
     <section class="login-content">
       <div class="logo">
-        <h1><?= $data['page_title']; ?></h1>
+          <img src="<?= media() ?>/tienda/images/logo-02.png" alt="AXW Store">
       </div>
       <div class="login-box">
         <div id="divLoading" >

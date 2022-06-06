@@ -1,5 +1,4 @@
-<?php
-
+<?php 
     headerAdmin($data); 
     getModal('modalClientes',$data);
 ?>

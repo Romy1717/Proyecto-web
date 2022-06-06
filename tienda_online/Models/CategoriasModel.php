@@ -6,18 +6,20 @@
 		public $strDescripcion;
 		public $intStatus;
 		public $strPortada;
+		public $strRuta;
 
 		public function __construct()
 		{
 			parent::__construct();
 		}
 
-		public function inserCategoria(string $nombre, string $descripcion, string $portada, int $status){
+		public function inserCategoria(string $nombre, string $descripcion, string $portada, string $ruta, int $status){
 
 			$return = 0;
 			$this->strCategoria = $nombre;
 			$this->strDescripcion = $descripcion;
 			$this->strPortada = $portada;
+			$this->strRuta = $ruta;
 			$this->intStatus = $status;
 
 			$sql = "SELECT * FROM categoria WHERE nombre = '{$this->strCategoria}' ";
@@ -25,10 +27,11 @@
 
 			if(empty($request))
 			{
-				$query_insert  = "INSERT INTO categoria(nombre,descripcion,portada,status) VALUES(?,?,?,?)";
+				$query_insert  = "INSERT INTO categoria(nombre,descripcion,portada,ruta,status) VALUES(?,?,?,?,?)";
 	        	$arrData = array($this->strCategoria, 
 								 $this->strDescripcion, 
-								 $this->strPortada, 
+								 $this->strPortada,
+								 $this->strRuta, 
 								 $this->intStatus);
 	        	$request_insert = $this->insert($query_insert,$arrData);
 	        	$return = $request_insert;
@@ -54,11 +57,12 @@
 			return $request;
 		}
 
-		public function updateCategoria(int $idcategoria, string $categoria, string $descripcion, string $portada, int $status){
+		public function updateCategoria(int $idcategoria, string $categoria, string $descripcion, string $portada, string $ruta, int $status){
 			$this->intIdcategoria = $idcategoria;
 			$this->strCategoria = $categoria;
 			$this->strDescripcion = $descripcion;
 			$this->strPortada = $portada;
+			$this->strRuta = $ruta;
 			$this->intStatus = $status;
 
 			$sql = "SELECT * FROM categoria WHERE nombre = '{$this->strCategoria}' AND idcategoria != $this->intIdcategoria";
@@ -66,10 +70,11 @@
 
 			if(empty($request))
 			{
-				$sql = "UPDATE categoria SET nombre = ?, descripcion = ?, portada = ?, status = ? WHERE idcategoria = $this->intIdcategoria ";
+				$sql = "UPDATE categoria SET nombre = ?, descripcion = ?, portada = ?, ruta = ?, status = ? WHERE idcategoria = $this->intIdcategoria ";
 				$arrData = array($this->strCategoria, 
 								 $this->strDescripcion, 
-								 $this->strPortada, 
+								 $this->strPortada,
+								 $this->strRuta, 
 								 $this->intStatus);
 				$request = $this->update($sql,$arrData);
 			}else{
