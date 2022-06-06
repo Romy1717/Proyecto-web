@@ -3,51 +3,50 @@ Proyecto de la materia Programación web avanzada
 
 Integrantes:
 
-Josué Gerardo Gutiérrez Martínez
+- Josué Gerardo Gutiérrez Martínez
 
-Andrea Romero Hernandez
+- Andrea Romero Hernandez
 
-Diana Isabel Santillan Guzman
-
-
-
-*Revisó:
-        Cuauhtémoc Gómez Suárez
+- Diana Isabel Santillan Guzman
 
 
-Uso de GitHub 
-    * No Cumple
-    
-Manejo de llamadas asíncronas
+
+### *Revisó:
+- Cuauhtémoc Gómez Suárez
+- [ ] Uso de GitHub 
+ * Hizo falta subir el proyecto
+
+
+- [ ] Manejo de llamadas asíncronas
  
 
-Manejo de Base de Datos ()
+- [ ] Manejo de Base de Datos ()
  
 
-Pantalla de login y control de acceso a la aplicación
+- [ ] Pantalla de login y control de acceso a la aplicación
 
 
-Asistencias
+- [ ] Asistencias
 
 
-Implementación del proyecto
+- [ ] Implementación del proyecto
  
 
-Seguridad en los formularios y manejo de contraseñas encriptadas
+- [ ] Seguridad en los formularios y manejo de contraseñas encriptadas
 
-Creación de tablas, esquemas o archivos (Create)
-
-
-Lectura  despliegue de información (Read)
+- [ ] Creación de tablas, esquemas o archivos (Create)
 
 
-Despliegue y permita actualizar (Update)
+- [ ] Lectura  despliegue de información (Read)
 
 
-Despliegue  y permita borrar (Delete)
+- [ ] Despliegue y permita actualizar (Update)
 
 
-Manejo de imágenes 
+- [ ] Despliegue  y permita borrar (Delete)
+
+
+- [ ] Manejo de imágenes 
 
 
 
