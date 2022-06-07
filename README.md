@@ -9,7 +9,7 @@ Proyecto de la materia Programación web avanzada
 
 
 ### Revisó:
-- Cuauhtémoc G.
+Cuauhtémoc G.
 - [ ] Uso de GitHub 
  -  6 AXW
  -  2  Josué GM
@@ -18,7 +18,7 @@ Proyecto de la materia Programación web avanzada
 - [x] Manejo de llamadas asíncronas
  
 
-- [x] Manejo de Base de Datos ()
+- [x] Manejo de Base de Datos (Mysql)
  
 
 - [ ] Pantalla de login y control de acceso a la aplicación
