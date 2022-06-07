@@ -10,7 +10,7 @@ Proyecto de la materia Programación web avanzada
 
 ### Revisó:
 - Cuauhtémoc G.
-- [] Uso de GitHub 
+- [ ] Uso de GitHub 
  -  6 AXW
  -  2  Josué GM
 
