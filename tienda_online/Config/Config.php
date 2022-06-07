@@ -1,6 +1,6 @@
 <?php
 
-	const BASE_URL = "http://localhost/tienda_online/";
+	const BASE_URL = "http://localhost:8080/tienda_online";
 
 	//Zona horaria
 	date_default_timezone_set('America/Mexico_City');
