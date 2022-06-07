@@ -36,7 +36,7 @@ Cuauhtémoc G.
  
 
 - [ ] Seguridad en los formularios y manejo de contraseñas encriptadas
- - a lo manejar contraseñas no hay manera de controlar el acceso.
+ - al no manejar contraseñas no hay manera de controlar el acceso.
 - [x] Creación de tablas, esquemas o archivos (Create)
 
 
