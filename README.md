@@ -3,9 +3,9 @@ Proyecto de la materia Programación web avanzada
 
 ## Integrantes: (Calificación)
 
-- Josué Gerardo Gutiérrez Martínez  (73)
-- Andrea Romero Hernandez           (61)
-- Diana Isabel Santillan Guzman     (61)
+- Josué Gerardo Gutiérrez Martínez  (91)
+- Andrea Romero Hernandez           (89)
+- Diana Isabel Santillan Guzman     (79)
 
 
 ### Revisó:
@@ -13,6 +13,7 @@ Cuauhtémoc G.
 - [ ] Uso de GitHub 
  -  6 AXW
  -  2  Josué GM
+ - 1 andrea 
 
 
 - [x] Manejo de llamadas asíncronas
@@ -43,11 +44,10 @@ Cuauhtémoc G.
 - [x] Lectura  despliegue de información (Read)
 
 
-- [ ] Despliegue y permita actualizar (Update)
- - no fue posible verificar esto
+- [x] Despliegue y permita actualizar (Update)
+ 
+- [x] Despliegue  y permita borrar (Delete)
 
-- [ ] Despliegue  y permita borrar (Delete)
- - no fue posible verificar esto
 
 - [x] Manejo de imágenes 
  
